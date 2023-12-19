@@ -11,7 +11,7 @@ body {
   height: auto;
   display: grid;
   bottom: 98px;
-  left: 50%;
+  /* left: 50%; */
   top: 154px;
   margin: 0px auto;
 }
