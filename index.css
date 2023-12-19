@@ -13,7 +13,7 @@ body {
   bottom: 98px;
   left: 50%;
   top: 154px;
-  transform: translateX(-50%);
+  margin: 0px auto;
 }
 
 .bundle-save {
@@ -90,7 +90,8 @@ body {
   width: 14.461px;
   height: 14.461px;
   left: 21.69px;
-  bottom: 29.83px;
+  /* bottom: 29.83px; */
+  top: 31.07px;
 }
 .upperinfo1,
 .upperinfo2,
@@ -143,16 +144,17 @@ body {
 .off50,
 .off40,
 .off60 {
+  color: #000;
+  font-family: Metropolis;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
   width: 65px;
   height: 14px;
   display: flex;
   text-transform: uppercase;
   position: relative;
-  font-size: 12.65px;
-  font-weight: 500;
-  font-family: var(--font-inter);
-  color: #000;
-  text-align: left;
   align-items: center;
   justify-content: center;
 }
@@ -327,10 +329,16 @@ body {
   transition: max-height 0.5s;
 }
 
-.sizeColourdetails1 {
+/* .sizeColourdetails1 {
  display: grid;
  max-width: auto;
  gap: 7px;
  overflow: visible;
-}
+} */
 
+.rectangle-div input[type="radio"]:checked + label + .sizeColourdetails {
+  display: grid;
+  overflow: visible;
+  max-height: 162px;
+  gap: 7px;
+}
